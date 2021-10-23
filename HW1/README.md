@@ -1,3 +1,4 @@
+<div align="center">
 *In The Name Of God*
 
 <p align="left">
@@ -8,7 +9,7 @@
 ### Deadline: Friday, 2021 Nov.5 - 23:59 (GMT+3:30)
 ---
 **Dr. Hamid Sheikhzadeh - TAs: Arshia Samoudi - Saleh Tabatabaei**
-
+</div>
 
 # Introduction
 Hi everyone.

@@ -1,6 +1,9 @@
 *In The Name Of God*
 
-![image](https://user-images.githubusercontent.com/47852354/138564509-b5dffb4e-f48b-4db5-b8a4-1385ef2b22c8.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47852354/138564509-b5dffb4e-f48b-4db5-b8a4-1385ef2b22c8.png" width="300">
+</p>
+
 # Dicrete-time Signal Processing - MATLAB HW1
 ### Deadline: Friday, 2021 Nov.5 - 23:59 (GMT+3:30)
 ---

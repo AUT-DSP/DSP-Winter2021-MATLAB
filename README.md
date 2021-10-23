@@ -6,7 +6,7 @@
 
 # Introduction
 Hi everyone.
-MATLAB Homework 1 Test Your Abilities for Following Content:
+MATLAB Homework 1 Tests Your Abilities for Following Content:
 - Convolution
 - Impulse Respones
 - Frequency Response

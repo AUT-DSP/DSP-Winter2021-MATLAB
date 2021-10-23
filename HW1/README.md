@@ -27,7 +27,7 @@ Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises 
 
 Good Luck!
 
-## 1.CONVOLUTION
+## Q1.CONVOLUTION
 1. Write a MATLAB program that implements the convolution sum:
 
 <p align="center">
@@ -61,7 +61,7 @@ b)<p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=x_2\left(n\right)={0.9}^n">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=0\le n\le100">
 </p>
 
-## 2. IMPULSE RESPONSE
+## Q2. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
 	<img src="https://render.githubusercontent.com/render/math?math=a)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B0.8y\left(n-1\right)">
@@ -87,7 +87,7 @@ duration and which are finite? Which systems are FIR and which systems are IIR?
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
 	
-## 3. RESPONSE OF DISCRETE-TIME SYSTEMS	
+## Q3. RESPONSE OF DISCRETE-TIME SYSTEMS	
 	
 1. Write a MATLAB program to determine the response of the following system:
 

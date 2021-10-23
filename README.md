@@ -12,7 +12,7 @@ MATLAB Homework 1 Tests Your Abilities in Following Content:
 - Frequency Response
 - Z-transform & Inverse Z-Transform
 
-HW Consists of 4 Parts:
+HW1 Consists of 4 Parts:
 - Parts A,B & C: MATLAB Coding Exercises
 - Part D: MATLAB AppDesigner
 

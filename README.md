@@ -1,6 +1,5 @@
-# Dicrete-time Signal Processing - MATLAB HW1
+# Dicrete-time Signal Processing - MATLAB HW
 ## Dr. Hamid Sheikhzadeh
-## Submission
 
 - Put all the codes relating to each question into a separate folder.
 - There should be only **one pdf** which is your report for all the questions.

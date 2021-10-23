@@ -2,7 +2,7 @@
 ## Dr. Hamid Sheikhzadeh
 ### DeadLine: 
 
-[__TOC__]
+
 
 # Introduction
 Hi everyone.
@@ -61,8 +61,6 @@ Plot the impulse response h(n) using stem(). Theoretically, what is the expressi
 duration and which are finite? Which systems are FIR and which systems are IIR?
 
 
-
-
 3. <img src="https://render.githubusercontent.com/render/math?math={\color{Red} Only for B1.b!!!}"><br> Solve the difference equation for y(n), n ≥ 0: driven by the input <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=\left(\frac{1}{2}\right)^nu\left[n\right]"> and subject to y(-1) = 0
 
 	a) Plot DTFT magnitude and Phase of y(n) over the interval [-π , π] without Calculation of y(n). (Hint: Filter Command, fftshift , fft)
@@ -72,4 +70,34 @@ duration and which are finite? Which systems are FIR and which systems are IIR?
 	c) Plot Frequency Response of y(n) (Hint: Freqz Command) and Obtain y(n) from it and plot it. (Hint: iztrans Command).
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
+	
+## C. RESPONSE OF DISCRETE-TIME SYSTEMS	
+	
+1. Write a MATLAB program to determine the response of the following system:
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2Bay\left(n-1\right)">
+</p>
+
+where a=0.5, and the input signal x(n) is the sinewave, x\left(n\right)=3sin\left(2\ \pi\ 0.2n\right). Assume zero initial conditions, y(-1)=0.
+ Plot y(n), for n=1, 2, …, 100.
+
+2. Repeat (1) for a=0.9, a=1.2, a=-0.5. What happens when a=1.2? Why?
+
+3. Square root algorithm
+Most computers and calculators compute the square root of a positive number A using the following recursive algorithm:
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=\frac{1}{2}\left[y\left(n-1\right)%2B\frac{x\left(n\right)}{y\left(n-1\right)}\right]">
+</p>
+
+
+If we use as the input x(n) to this system (algorithm) a step function of amplitude A,
+then y(n) will converge after several iterations to the square root of A.
+Write a MATLAB program that implements the above algorithm to compute the
+square root of: 16, 4, 5 and 3. How many iterations does it take to converge to the true
+value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
+
+
+
 

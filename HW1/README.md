@@ -20,7 +20,7 @@ Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises 
 
 Good Luck!
 
-## A.CONVOLUTION
+## 1.CONVOLUTION
 1. Write a MATLAB program that implements the convolution sum:
 
 <p align="center">
@@ -49,7 +49,7 @@ b)<p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=x_2\left(n\right)={0.9}^n">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=0\le n\le100">
 </p>
 
-## B. IMPULSE RESPONSE
+## 2. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
 	<img src="https://render.githubusercontent.com/render/math?math=a)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B0.8y\left(n-1\right)">
@@ -75,7 +75,7 @@ duration and which are finite? Which systems are FIR and which systems are IIR?
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
 	
-## C. RESPONSE OF DISCRETE-TIME SYSTEMS	
+## 3. RESPONSE OF DISCRETE-TIME SYSTEMS	
 	
 1. Write a MATLAB program to determine the response of the following system:
 
@@ -83,7 +83,9 @@ duration and which are finite? Which systems are FIR and which systems are IIR?
   <img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2Bay\left(n-1\right)">
 </p>
 
-where a=0.5, and the input signal x(n) is the sinewave, x\left(n\right)=3sin\left(2\ \pi\ 0.2n\right). Assume zero initial conditions, y(-1)=0.
+
+
+where a=0.5, and the input signal x(n) is the sinewave, <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=3sin\left(2\ \pi\ 0.2n\right)">. Assume zero initial conditions, y(-1)=0.
  Plot y(n), for n=1, 2, …, 100.
 
 2. Repeat (1) for a=0.9, a=1.2, a=-0.5. What happens when a=1.2? Why?

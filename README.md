@@ -6,13 +6,17 @@
 
 # Introduction
 Hi everyone.
-MATLAB Homework 1 Tests Your Abilities for Following Content:
+MATLAB Homework 1 Tests Your Abilities in Following Content:
 - Convolution
 - Impulse Respones
 - Frequency Response
 - Z-transform & Inverse Z-Transform
 
-HW Contains 3 Parts(A,B & C). Please Do all Theoretical and Coding Parts of Exercises and Publish your Work just like The **Template** given as Follows.
+HW Consists of 4 Parts:
+- Parts A,B & C: MATLAB Coding Exercises
+- Part D: MATLAB AppDesigner
+
+Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises and Publish your Work just like The **MATLAB HW-Template** given as Follows and Upload it in [Courses](https://courses.aut.ac.ir/)
 
 Good Luck!
 
@@ -91,12 +95,40 @@ Most computers and calculators compute the square root of a positive number A us
   <img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=\frac{1}{2}\left[y\left(n-1\right)%2B\frac{x\left(n\right)}{y\left(n-1\right)}\right]">
 </p>
 
-
 If we use as the input x(n) to this system (algorithm) a step function of amplitude A,
 then y(n) will converge after several iterations to the square root of A.
 Write a MATLAB program that implements the above algorithm to compute the
 square root of: 16, 4, 5 and 3. How many iterations does it take to converge to the true
 value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
+
+
+## Submission
+
+- Put all the codes relating to each question into a separate folder.
+- There should be only **one pdf** which is your report for all the questions.
+- Note that you must provide your answers in the form of a sample available in the
+**MATLAB HW-Template.zil** file. [For each question, you have to comment and specify the
+relevant sections of the questions, and finally publish it for each question. All
+results (charts, images, audio files) should be included too]
+- Charts that do not have labels, titles and axes have no scientific value, so specify
+your figures accurately. (Examples are available in the instance file)
+- Please do not cheat in any way, otherwise a score of 0 will be considered for you.
+- Attach your zip file and name it like below: “HW1_ MATLAB_[StdNum].zip”
+- Submit and upload your zip file in the Courses platform until deadline.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

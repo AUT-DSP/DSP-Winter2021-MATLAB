@@ -48,11 +48,11 @@ b)<p align="center">
 ## B. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
-<img src="https://render.githubusercontent.com/render/math?math=a)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B0.8y\left(n-1\right)">
+	<img src="https://render.githubusercontent.com/render/math?math=a)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B0.8y\left(n-1\right)">
    
-<img src="https://render.githubusercontent.com/render/math?math=b)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=x\left(n\ -\ 1\right)%2B0.2y\left(n\ -\ 1\right)%2B0.15y\left(n\ -\ 2\right)%2B1.7x\left(n\ -\ 2\right)">
+	<img src="https://render.githubusercontent.com/render/math?math=b)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=x\left(n\ -\ 1\right)%2B0.2y\left(n\ -\ 1\right)%2B0.15y\left(n\ -\ 2\right)%2B1.7x\left(n\ -\ 2\right)">
 
-<img src="https://render.githubusercontent.com/render/math?math=c)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B2.3x\left(n-2\right)%2B4x\left(n-4\right)">
+	<img src="https://render.githubusercontent.com/render/math?math=c)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B2.3x\left(n-2\right)%2B4x\left(n-4\right)">
    
    
 Plot the impulse response h(n) using stem(). Theoretically, what is the expression for h(n)? Plot the impulse response h(n), for n=0,1,…,100.

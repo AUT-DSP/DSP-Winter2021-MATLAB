@@ -1,7 +1,8 @@
+*In The Name Of God*
 # Dicrete-time Signal Processing - MATLAB HW1
-## Dr. Hamid Sheikhzadeh
-### DeadLine: 
-
+### Deadline: Friday, 2021 Nov.5 - 23:59 (GMT+3:30)
+---
+**Dr. Hamid Sheikhzadeh - TAs: Arshia Samoudi - Saleh Tabatabaei**
 
 
 # Introduction
@@ -28,12 +29,6 @@ Good Luck!
 </p>
 
 for arbitrary input signal x(n) and impulse response h(n). Implement the convolution as a function of the form: y=convol(x,h). The function should take as input 		arguments the signal vector x(n), and impulse response h(n), and should return the output in the vector y. Assume that the signals x(n), and h(n) are zero for n<0.
-
-				function y = convol(x,h)
-				.
-				.
-				.
-				end
 
 
 2. Using the convolution program developed in (1), convolve the following sequences:
@@ -110,6 +105,8 @@ square root of: 16, 4, 5 and 3. How many iterations does it take to converge to 
 value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
 
 
+----
+**Amirkabir University of Technology, Electrical Engineering Department**
 
 
 

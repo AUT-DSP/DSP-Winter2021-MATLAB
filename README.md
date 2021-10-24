@@ -6,7 +6,7 @@
 - Put all the codes relating to each question into a separate folder.
 - There should be only **one pdf** which is your report for all the questions.
 - Note that you must provide your answers in the form of a sample available in the
-**MATLAB HW-Template.zip** file. (Download files from Code> Download .zip file)
+**MATLAB HW-Template.zip** file. (Download files from <img src="https://render.githubusercontent.com/render/math?math={\color{Green}Code>}">Download .zip file)
 - For each question, you have to comment and specify the
 relevant sections of the questions, and finally publish it for each question. All
 results (charts, images, audio files) should be included too

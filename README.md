@@ -13,7 +13,7 @@ results (charts, images, audio files) should be included too
 - Charts that do not have labels, titles and axes have no scientific value, so specify
 your figures accurately. (Examples are available in the instance file)
 - Please do not cheat in any way, otherwise a score of 0 will be considered for you.
-- Attach your zip file and name it like below: “HW1_ MATLAB_[StdNum].zip”
+- Attach your zip file and name it like below: “HW[number]_MATLAB_[stdnum].zip”
 - Submit and upload your zip file in the Courses platform until deadline.
 
 

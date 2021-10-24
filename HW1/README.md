@@ -6,7 +6,7 @@
 </p>
 
 # Dicrete-time Signal Processing - MATLAB HW1
-### Deadline: Wednesday, 2021 Nov.3 - 23:59 (GMT+3:30)
+### Deadline: Wednesday, 2021 Nov.4 - 23:59 (GMT+3:30)
 ---
 **Dr. Hamid Sheikhzadeh - TAs: Arshia Samoudi - Saleh Tabatabaei**
 </div>

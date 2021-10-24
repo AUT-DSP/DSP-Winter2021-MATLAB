@@ -28,6 +28,9 @@ Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises 
 
 Good Luck!
 
+# MATLAB Coding Exercises
+<br>
+
 ## Q1. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
@@ -203,6 +206,9 @@ MATLAB's `Window Designer` ToolBox has All the Comparison Properties of Window D
   <img src="https://www.mathworks.com/help/signal/ug/window_blackhamhan.png">
 </p>
 
+<br><br>
+# MATLAB AppDesigner
+<br>
 
 ## Q4. APP Designer - Echo
 in this exercise, our goal is to add echo to voice signal. for better understanding, please make attention to **Q4 folder** content. the voice signal is in mentioned folder.

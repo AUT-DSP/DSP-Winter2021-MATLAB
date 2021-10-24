@@ -219,9 +219,14 @@ we want to study on the effects of parameters N,M and α on output. for this pur
 - two plots for showing original signal and echoed signal in time domain and frequency domain.(for changing the plot type in time domain and frequency domain, use two **Radio Button**)
 - there must be a **Button** to save the echoed signal.
 - write down all the results by changing the parameters in your report.
+- there are two .wav file in **Q4 folder** which you can test your app.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54024838/138607623-c3baf2f9-c75d-49f4-95bc-c472de6202f3.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/138609889-5584792e-45e2-4479-bcb4-189e5e4216ef.png" width = 500>
 </p>
 
 

@@ -19,7 +19,7 @@ MATLAB Homework 1 Tests Your Abilities in Following Content:
 - Frequency Response
 - Z-transform & Inverse Z-Transform
 
-HW1 Consists of 3 Questions, 1 Bonus questions & 2 AppDesigner Questions:
+HW1 Consists of 5 Questions:
 - Q1,Q2,Q3: MATLAB Coding Exercises
 - Q4: MATLAB AppDesigner
 - Q5: MATLAB AppDesigner Bonus Question
@@ -225,7 +225,7 @@ we want to study on the effects of parameters N,M and α on output. for this pur
 </p>
 
 
-## Q5. APP Designer - Pole/Zero Identifier
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) (Bonus Question) Q5. APP Designer - Pole/Zero Identifier
 
 Design an App according to the clip in **Q5 folder** that Plots the frequency Response of a system by Adding zeros and poles one by one. <br>
 Description: for instance, if the system has one zero, z = 1.5 and two poles p = 0.4 + j0.3, 0.4 - j0.3, User must determine the Real part and Imaginary part of a Zero/Pole in **Edit Fields** and then specify the kind of input(Zero or Pole ) by a **Drop Down**. <br>

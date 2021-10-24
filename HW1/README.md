@@ -248,8 +248,7 @@ At last by pushing the **Add Button**, the Zero/Pole is added to system and the 
 - arg Phase of Frequency response
 - ARG Phase of Frequency response
 
-
-
+Two **Labels** show user, the Number of Zeros and Poles of System.
 
 ----
 **Amirkabir University of Technology, Electrical Engineering Department**

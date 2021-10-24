@@ -12,7 +12,7 @@
 </div>
 
 ## Introduction
----
+
 Hi everyone.
 MATLAB Homework 1 Tests Your Abilities in Following Content:
 - Convolution
@@ -30,7 +30,7 @@ Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises 
 Good Luck!
 
 ## MATLAB PART
----
+
 ### Q1.CONVOLUTION
 1. Write a MATLAB program that implements the convolution sum:
 
@@ -67,7 +67,7 @@ b)<p align="center">
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=x_2\left(n\right)={0.9}^n">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=0\le n\le100">
 </p>
-
+---
 ### Q2. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
@@ -93,6 +93,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
 	
+---
 ### Q3. RESPONSE OF DISCRETE-TIME SYSTEMS	
 	
 1. Write a MATLAB program to determine the response of the following system:
@@ -120,6 +121,7 @@ Write a MATLAB program that implements the above algorithm to compute the
 square root of: 16, 4, 5 and 3. How many iterations does it take to converge to the true
 value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
 
+---
 ### Q4. Window
 The following finite-duration sequences are called windows and are very useful in DSP. 4 Common windows and their formula, listed below:
 
@@ -246,7 +248,7 @@ MATLAB's `Window Designer` ToolBox has All the Comparison Properties of Window D
 
 
 ## APP DESIGNER PART
----
+
 ### Q5. Pole/Zero Identifier
 
 Design an App according to the clip in **Q5 folder** that Plots the frequency Response of a system by Adding zeros and poles one by one. <br>
@@ -259,7 +261,10 @@ At last by pushing the **Add Button**, the Zero/Pole is added to system and the 
 
 Two **Labels** show user, the Number of Zeros and Poles of System.
 
-----
+---
+### Q6. blablabla
+
+---
 **Amirkabir University of Technology, Electrical Engineering Department**
 
 

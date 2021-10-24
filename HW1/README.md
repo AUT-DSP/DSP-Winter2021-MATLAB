@@ -81,7 +81,7 @@ square root of: 16, 4, 5 and 3. How many iterations does it take to converge to 
 value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
 
 ## Q3. Window
-The following finite-duration sequences are called windows and are very useful in DSP. 4 Common windows and their formula, listed below:
+The following finite-duration sequences are called windows and are very useful in DSP. 5 Common windows and their formula, listed below:
 
 ### a) Rectangular
 <p align="center">

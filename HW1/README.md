@@ -139,25 +139,7 @@ wvtool(rectwin(L))
  
 
 <br><br>
-### b) Hanning
-<p align="center">
-  <img src="https://latex.codecogs.com/gif.latex?C_M%28n%29%20%3D%200.5%20%5Cbegin%7Bbmatrix%7D%201-%5Ccos%28%5Cfrac%7B2%5Cpi%20n%7D%7BM-1%7D%29%20%5Cend%7Bbmatrix%7DR_M%28n%29">
-</p>
-
-MATLAB has `w = hann(L)` Command which returns an L-point symmetric Hann window.
-
-```
-L = 64;
-wvtool(hann(L))
-
-```
-
-<p align="center">
-  <img src="https://www.mathworks.com/help/examples/signal/win64/HannWindowExample_01.png">
-</p>
-
-<br><br>
-### c) Bartlett
+### b) Bartlett
 
 <p align="center">
   <img src="https://latex.codecogs.com/gif.latex?B_M%28n%29%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5Cfrac%7B2n%7D%7BN%7D%20%26%20%26%200%5Cleq%20n%5Cleq%20%5Cfrac%7BN%7D%7B2%7D%5C%5C%20%26%20%26%5C%5C%202%20-%20%5Cfrac%7B2n%7D%7BN%7D%20%26%20%26%20%5Cfrac%7BN%7D%7B2%7D%5Cleq%20n%5Cleq%20N%20%5Cend%7Bmatrix%7D%5Cright.">
@@ -174,6 +156,25 @@ wvtool(bw)
 
 <p align="center">
   <img src="https://www.mathworks.com/help/examples/signal/win64/BartlettWindowExample_01.png">
+</p>
+
+
+<br><br>
+### c) Hanning
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?C_M%28n%29%20%3D%200.5%20%5Cbegin%7Bbmatrix%7D%201-%5Ccos%28%5Cfrac%7B2%5Cpi%20n%7D%7BM-1%7D%29%20%5Cend%7Bbmatrix%7DR_M%28n%29">
+</p>
+
+MATLAB has `w = hann(L)` Command which returns an L-point symmetric Hann window.
+
+```
+L = 64;
+wvtool(hann(L))
+
+```
+
+<p align="center">
+  <img src="https://www.mathworks.com/help/examples/signal/win64/HannWindowExample_01.png">
 </p>
 
 <br><br>
@@ -235,6 +236,10 @@ end
 
 ### Additional content: 
 MATLAB's `Window Designer` ToolBox has All the Comparison Properties of Window Designing. You can Access it by typing `windowDesigner` on Command Window.
+
+<p align="center">
+  <img src="https://www.mathworks.com/help/signal/ug/window_blackhamhan.png">
+</p>
 
 
 

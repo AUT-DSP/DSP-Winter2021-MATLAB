@@ -11,7 +11,8 @@
 **Dr. Hamid Sheikhzadeh - TAs: Arshia Samoudi - Saleh Tabatabaei**
 </div>
 
-# Introduction
+## Introduction
+---
 Hi everyone.
 MATLAB Homework 1 Tests Your Abilities in Following Content:
 - Convolution
@@ -28,7 +29,9 @@ Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises 
 
 Good Luck!
 
-## Q1.CONVOLUTION
+## MATLAB PART
+---
+### Q1.CONVOLUTION
 1. Write a MATLAB program that implements the convolution sum:
 
 <p align="center">
@@ -65,7 +68,7 @@ b)<p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=x_2\left(n\right)={0.9}^n">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=0\le n\le100">
 </p>
 
-## Q2. IMPULSE RESPONSE
+### Q2. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
 	<img src="https://render.githubusercontent.com/render/math?math=a)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B0.8y\left(n-1\right)">
@@ -90,7 +93,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
 	
-## Q3. RESPONSE OF DISCRETE-TIME SYSTEMS	
+### Q3. RESPONSE OF DISCRETE-TIME SYSTEMS	
 	
 1. Write a MATLAB program to determine the response of the following system:
 
@@ -117,7 +120,7 @@ Write a MATLAB program that implements the above algorithm to compute the
 square root of: 16, 4, 5 and 3. How many iterations does it take to converge to the true
 value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
 
-## Q4. Window
+### Q4. Window
 The following finite-duration sequences are called windows and are very useful in DSP. 4 Common windows and their formula, listed below:
 
 ### a) Rectangular
@@ -242,8 +245,9 @@ MATLAB's `Window Designer` ToolBox has All the Comparison Properties of Window D
 </p>
 
 
-
-## Q5. APP Designer - Pole/Zero Identifier
+## APP DESIGNER PART
+---
+### Q5. Pole/Zero Identifier
 
 Design an App according to the clip in **Q5 folder** that Plots the frequency Response of a system by Adding zeros and poles one by one. <br>
 Description: for instance, if the system has one zero, z = 1.5 and two poles p = 0.4 + j0.3, 0.4 - j0.3, User must determine the Real part and Imaginary part of a Zero/Pole in **Edit Fields** and then specify the kind of input(Zero or Pole ) by a **Drop Down**. <br>

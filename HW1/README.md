@@ -271,7 +271,6 @@ we want to study on the effects of parameters N,M and α on output. for this pur
 - two plots for showing original signal and echoed signal in time domain and frequency domain.(for changing the plot type in time domain and frequency domain, use two **Radio Button**)
 - there must be a **Button** to save the echoed signal.
 - write down all the results by changing the parameters in your report.
-- 
 
 
 ----

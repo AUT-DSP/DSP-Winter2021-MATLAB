@@ -1,6 +1,9 @@
 # Dicrete-time Signal Processing - MATLAB HW
-## Dr. Hamid Sheikhzadeh
+### Your submission file name should be like: 
+## *HW[number]_MATLAB_[stdnum].zip*
 
+
+## Submission:
 - Put all the codes relating to each question into a separate folder.
 - There should be only **one pdf** which is your report for all the questions.
 - Note that you must provide your answers in the form of a sample available in the

@@ -205,7 +205,7 @@ MATLAB's `Window Designer` ToolBox has All the Comparison Properties of Window D
 
 
 ## Q4. APP Designer - Echo
-in this exercise, our goal is to add echo to voice signal. for better understanding, please make attention to **Q6 folder** content. the voice signal is in mentioned folder.
+in this exercise, our goal is to add echo to voice signal. for better understanding, please make attention to **Q4 folder** content. the voice signal is in mentioned folder.
 the output of echoed signal is obtained from the formula below:
 
 <p align="center">
@@ -220,6 +220,10 @@ we want to study on the effects of parameters N,M and α on output. for this pur
 - there must be a **Button** to save the echoed signal.
 - write down all the results by changing the parameters in your report.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/138607623-c3baf2f9-c75d-49f4-95bc-c472de6202f3.png">
+</p>
+
 
 ## Q5. APP Designer - Pole/Zero Identifier
 
@@ -232,6 +236,12 @@ At last by pushing the **Add Button**, the Zero/Pole is added to system and the 
 - ARG Phase of Frequency response
 
 Two **Labels** show user, the Number of Zeros and Poles of System.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/138607662-a1fc310b-efd3-4558-8ac2-60a13d84eaf9.png">
+</p>
+
+
 
 
 ----

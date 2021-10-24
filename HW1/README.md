@@ -80,7 +80,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 2. Of the impulse responses computed in (1), which impulse responses are infinite in duration and which are finite? Which systems are FIR and which systems are IIR? Write Down your Answers and Reasons in your Report.
 
 
-3. <img src="https://render.githubusercontent.com/render/math?math={\color{Red} Only for B1.b!!!}"><br> Solve the difference equation for y(n), n ≥ 0: driven by the input <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=\left(\frac{1}{2}\right)^nu\left[n\right]"> and subject to y(-1) = 0
+3. <img src="https://render.githubusercontent.com/render/math?math={\color{Red} Only for 1.b!!!}"><br> Solve the difference equation for y(n), n ≥ 0: driven by the input <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=\left(\frac{1}{2}\right)^nu\left[n\right]"> and subject to y(-1) = 0
 
 	a) Plot DTFT magnitude and Phase of y(n) over the interval [-π , π] without Calculation of y(n). (*Hint: Filter Command, fftshift , fft*)
 

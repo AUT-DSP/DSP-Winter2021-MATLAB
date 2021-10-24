@@ -19,9 +19,10 @@ MATLAB Homework 1 Tests Your Abilities in Following Content:
 - Frequency Response
 - Z-transform & Inverse Z-Transform
 
-HW1 Consists of 4 Parts:
-- Parts A,B & C: MATLAB Coding Exercises
-- Part D: MATLAB AppDesigner
+HW1 Consists of 3 Questions, 1 Bonus questions & 2 AppDesigner Questions:
+- Q1,Q2,Q3: MATLAB Coding Exercises
+- Q4: Bonus Question
+- Q5,Q6: MATLAB AppDesigner
 
 Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises and Publish your Work just like The **MATLAB HW-Template** given as Follows and Upload it in [Courses](https://courses.aut.ac.ir/)
 
@@ -34,13 +35,16 @@ Good Luck!
   <img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=\sum_{k=-\infty}^{\infty}x\left(k\right)h\left(n-k\right)">
 </p>
 
-for arbitrary input signal x(n) and impulse response h(n). Implement the convolution as a function of the form: y=convol(x,h). The function should take as input 		arguments the signal vector x(n), and impulse response h(n), and should return the output in the vector y. Assume that the signals x(n), and h(n) are zero for n<0.
+for arbitrary input signal x(n) and impulse response h(n). Implement the convolution as a function of the form: y=convol(x,h). The function should take as input 		arguments the signal vector x(n), and impulse response h(n), and should return the output in the vector y. Assume that the signals x(n), and h(n) are zero for n<0. Compare your function with "conv" of MATLAB.	
+	
+```javascript
+function y = convol(x,h)
+.
+.
+.
+end
+```
 
-			function y = conv(x,h)
-			.
-			.
-			.
-			end
 
 2. Using the convolution program developed in (1), convolve the following sequences:
 
@@ -71,19 +75,18 @@ b)<p align="center">
 	<img src="https://render.githubusercontent.com/render/math?math=c)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B2.3x\left(n-2\right)%2B4x\left(n-4\right)">
    
    
-Plot the impulse response h(n) using stem(). Theoretically, what is the expression for h(n)? Plot the impulse response h(n), for n=0,1,…,100.
+Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, what is the expression for h(n)? Write Down these expressions in your Report. 
 
-2. Of the impulse responses computed in (1), which impulse responses are infinite in
-duration and which are finite? Which systems are FIR and which systems are IIR?
+2. Of the impulse responses computed in (1), which impulse responses are infinite in duration and which are finite? Which systems are FIR and which systems are IIR? Write Down your Answers and Reasons in your Report.
 
 
 3. <img src="https://render.githubusercontent.com/render/math?math={\color{Red} Only for B1.b!!!}"><br> Solve the difference equation for y(n), n ≥ 0: driven by the input <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=\left(\frac{1}{2}\right)^nu\left[n\right]"> and subject to y(-1) = 0
 
-	a) Plot DTFT magnitude and Phase of y(n) over the interval [-π , π] without Calculation of y(n). (Hint: Filter Command, fftshift , fft)
+	a) Plot DTFT magnitude and Phase of y(n) over the interval [-π , π] without Calculation of y(n). (*Hint: Filter Command, fftshift , fft*)
 
-	b) Determine and Plot y(n) with convolution (Use the convol Function From A.1). Plot DTFT magnitude and Phase of y(n).
+	b) Determine and Plot y(n) with convolution (*Use the convol Function From A.1*). Plot DTFT magnitude and Phase of y(n).
 
-	c) Plot Frequency Response of y(n) (Hint: Freqz Command) and Obtain y(n) from it and plot it. (Hint: iztrans Command).
+	c) Plot Frequency Response of y(n) (*Hint: Freqz Command*) and Obtain y(n) from it and plot it. (*Hint: iztrans Command*).
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
 	
@@ -94,7 +97,6 @@ duration and which are finite? Which systems are FIR and which systems are IIR?
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2Bay\left(n-1\right)">
 </p>
-
 
 
 where a=0.5, and the input signal x(n) is the sinewave, <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=3sin\left(2\ \pi\ 0.2n\right)">. Assume zero initial conditions, y(-1)=0.
@@ -114,6 +116,139 @@ then y(n) will converge after several iterations to the square root of A.
 Write a MATLAB program that implements the above algorithm to compute the
 square root of: 16, 4, 5 and 3. How many iterations does it take to converge to the true
 value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
+
+## Q4. Window
+The following finite-duration sequences are called windows and are very useful in DSP. 4 Common windows and their formula, listed below:
+
+### a) Rectangular
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?R_M%28n%29%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%201%20%26%20%26%200%5Cleq%20n%3C%20M%5C%5C%200%20%26%20%26%20O.W.%20%5Cend%7Bmatrix%7D%5Cright.">
+</p>
+
+MATLAB has `w = rectwin(L)` Command which returns a rectangular window of length L.
+
+
+```
+L = 64;
+wvtool(rectwin(L))
+
+```
+<p align="center">
+  <img src="https://www.mathworks.com/help/examples/signal/win64/RectangularWindowExample_01.png">
+</p>
+ 
+
+<br><br>
+### b) Hanning
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?C_M%28n%29%20%3D%200.5%20%5Cbegin%7Bbmatrix%7D%201-%5Ccos%28%5Cfrac%7B2%5Cpi%20n%7D%7BM-1%7D%29%20%5Cend%7Bbmatrix%7DR_M%28n%29">
+</p>
+
+MATLAB has `w = hann(L)` Command which returns an L-point symmetric Hann window.
+
+```
+L = 64;
+wvtool(hann(L))
+
+```
+
+<p align="center">
+  <img src="https://www.mathworks.com/help/examples/signal/win64/HannWindowExample_01.png">
+</p>
+
+<br><br>
+### c) Bartlett
+
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?B_M%28n%29%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5Cfrac%7B2n%7D%7BN%7D%20%26%20%26%200%5Cleq%20n%5Cleq%20%5Cfrac%7BN%7D%7B2%7D%5C%5C%20%26%20%26%5C%5C%202%20-%20%5Cfrac%7B2n%7D%7BN%7D%20%26%20%26%20%5Cfrac%7BN%7D%7B2%7D%5Cleq%20n%5Cleq%20N%20%5Cend%7Bmatrix%7D%5Cright.">
+</p>
+
+MATLAB has `w = bartlett(L)` Command which returns an L-point symmetric Bartlett window.
+
+```
+L = 64;
+bw = bartlett(L);
+wvtool(bw)
+
+```
+
+<p align="center">
+  <img src="https://www.mathworks.com/help/examples/signal/win64/BartlettWindowExample_01.png">
+</p>
+
+<br><br>
+### d) Hamming
+
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?H_M%28n%29%20%3D%20%5Cbegin%7Bbmatrix%7D%200.54%20-%200.46%5Ccos%5Cfrac%7B2%5Cpi%20n%7D%7BM-1%7D%20%5Cend%7Bbmatrix%7D%20R_M%28n%29">
+</p>
+
+MATLAB has `w = hamming(L)` Command which returns an L-point symmetric Hamming window.
+
+```
+L = 64;
+wvtool(hamming(L))
+
+```
+<p align="center">
+  <img src="https://www.mathworks.com/help/examples/signal/win64/HammingWindowExample_01.png">
+</p>
+
+
+### e) BlackMan
+
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?BL_M%28n%29%20%3D%20%5Cbegin%7Bbmatrix%7D%200.42%20-%200.5%5Ccos%5Cfrac%7B2%5Cpi%20n%7D%7BM-1%7D%20&plus;%200.08%5Ccos%5Cfrac%7B4%5Cpi%20n%7D%7BM-1%7D%20%5Cend%7Bbmatrix%7D%20R_M%28n%29">
+</p>
+
+MATLAB has `w = blackman(L)` Command which returns an L-point symmetric Blackman window.
+
+```
+L = 64;
+wvtool(blackman(L))
+
+```
+
+<p align="center">
+  <img src="https://www.mathworks.com/help/examples/signal/win64/BlackmanWindowExample_01.png">
+</p>
+
+
+for the purpose of this Exercise, For each of these windows, write your own MATLAB function ,determine their DTFTs for M = 10, 50, 101. Scale
+transform values so that the maximum value is equal to 1.
+Plot the magnitude of the normalized DTFT over −π ≤ ω ≤ π. Study these plots
+and comment on their behavior as a function of M and Compare their DTFT's. for instance, the Rectangular Window Function written below:
+
+```javascript
+function w = myRect(M)
+% Rectangular Window of Length M
+	n=0:M;
+	R=zeros(1,length(n)); 
+	for i=1:length(n)
+	    if(n(i)<M)
+		R(i)=1;
+	    end
+	end
+end
+```
+
+
+### Additional content: 
+MATLAB's `Window Designer` ToolBox has All the Comparison Properties of Window Designing. You can Access it by typing `windowDesigner` on Command Window.
+
+
+
+## Q5. APP Designer - Pole/Zero Identifier
+
+Design an App according to the clip in **Q5 folder** that Plots the frequency Response of a system by Adding zeros and poles one by one. <br>
+Description: for instance, if the system has one zero, z = 1.5 and two poles p = 0.4 + j0.3, 0.4 - j0.3, User must determine the Real part and Imaginary part of a Zero/Pole in **Edit Fields** and then specify the kind of input(Zero or Pole ) by a **Drop Down**. <br>
+At last by pushing the **Add Button**, the Zero/Pole is added to system and the frequency response will be updated. by Using a **Radio Button Group** the Different aspect of Frequency Response can be selected.
+- Linear Magnitude of Frequency response
+- dB Magnitude of Frequency response
+- arg Phase of Frequency response
+- ARG Phase of Frequency response
+
+
 
 
 ----

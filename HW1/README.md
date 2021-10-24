@@ -11,8 +11,7 @@
 **Dr. Hamid Sheikhzadeh - TAs: Arshia Samoudi - Saleh Tabatabaei**
 </div>
 
-## Introduction
-
+# Introduction
 Hi everyone.
 MATLAB Homework 1 Tests Your Abilities in Following Content:
 - Convolution
@@ -29,9 +28,7 @@ Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises 
 
 Good Luck!
 
-## MATLAB PART
-
-### Q1.CONVOLUTION
+## Q1.CONVOLUTION
 1. Write a MATLAB program that implements the convolution sum:
 
 <p align="center">
@@ -67,8 +64,8 @@ b)<p align="center">
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=x_2\left(n\right)={0.9}^n">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=0\le n\le100">
 </p>
----
-### Q2. IMPULSE RESPONSE
+
+## Q2. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
 	<img src="https://render.githubusercontent.com/render/math?math=a)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B0.8y\left(n-1\right)">
@@ -93,8 +90,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
 	
----
-### Q3. RESPONSE OF DISCRETE-TIME SYSTEMS	
+## Q3. RESPONSE OF DISCRETE-TIME SYSTEMS	
 	
 1. Write a MATLAB program to determine the response of the following system:
 
@@ -121,8 +117,7 @@ Write a MATLAB program that implements the above algorithm to compute the
 square root of: 16, 4, 5 and 3. How many iterations does it take to converge to the true
 value assuming y(-1)=0.5? Is the algorithm sensitive to the initial conditions y(-1)?
 
----
-### Q4. Window
+## Q4. Window
 The following finite-duration sequences are called windows and are very useful in DSP. 4 Common windows and their formula, listed below:
 
 ### a) Rectangular
@@ -247,9 +242,8 @@ MATLAB's `Window Designer` ToolBox has All the Comparison Properties of Window D
 </p>
 
 
-## APP DESIGNER PART
 
-### Q5. Pole/Zero Identifier
+## Q5. APP Designer - Pole/Zero Identifier
 
 Design an App according to the clip in **Q5 folder** that Plots the frequency Response of a system by Adding zeros and poles one by one. <br>
 Description: for instance, if the system has one zero, z = 1.5 and two poles p = 0.4 + j0.3, 0.4 - j0.3, User must determine the Real part and Imaginary part of a Zero/Pole in **Edit Fields** and then specify the kind of input(Zero or Pole ) by a **Drop Down**. <br>
@@ -261,10 +255,26 @@ At last by pushing the **Add Button**, the Zero/Pole is added to system and the 
 
 Two **Labels** show user, the Number of Zeros and Poles of System.
 
----
-### Q6. blablabla
 
----
+## Q6. APP Designer - Echo
+in this exercise, our goal is to add echo to voice signal. for better understanding, please make attention to **Q6 folder** content. the voice signal is in mentioned folder.
+the output of echoed signal is obtained from the formula below:
+
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?y_%7Becho%7D%5Bn%5D%20%3D%20%5Csum_%7Bk%3D0%7D%5E%7BN%7D%5Calpha%20%5Eky%5Bn-kM%5D">
+</p>
+
+we want to study on the effects of parameters N,M and α on output. for this purpose, Develope an App that get an audio signal as input and Gives the echoed signal as output. App must have these features.
+
+- the parameters values must be changeable with **Edit Field** for analysing effects.(initial values are M = 44100, N = 3 and α = 0.7)
+- two **buttons** for playing original signal and echoed signal.
+- two plots for showing original signal and echoed signal in time domain and frequency domain.(for changing the plot type in time domain and frequency domain, use two **Radio Button**)
+- there must be a **Button** to save the echoed signal.
+- write down all the results by changing the parameters in your report.
+- 
+
+
+----
 **Amirkabir University of Technology, Electrical Engineering Department**
 
 

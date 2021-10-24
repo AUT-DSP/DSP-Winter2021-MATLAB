@@ -28,44 +28,7 @@ Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises 
 
 Good Luck!
 
-## Q1.CONVOLUTION
-1. Write a MATLAB program that implements the convolution sum:
-
-<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=\sum_{k=-\infty}^{\infty}x\left(k\right)h\left(n-k\right)">
-</p>
-
-for arbitrary input signal x(n) and impulse response h(n). Implement the convolution as a function of the form: y=convol(x,h). The function should take as input 		arguments the signal vector x(n), and impulse response h(n), and should return the output in the vector y. Assume that the signals x(n), and h(n) are zero for n<0. Compare your function with "conv" of MATLAB.	
-	
-```javascript
-function y = convol(x,h)
-.
-.
-.
-end
-```
-
-
-2. Using the convolution program developed in (1), convolve the following sequences:
-
-
-a)<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=x_1\left(n\right)=\left[1,1,1,1,1\right]">
-</p>
-
-<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=x_2\left(n\right)=\left[1,1,1,1,1,1,1\right]">
-</p>
-
-b)<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=x_1\left(n\right)={0.5}^n">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=0\le n\le100">
-</p>
-
-<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=x_2\left(n\right)={0.9}^n">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=0\le n\le100">
-</p>
-
-## Q2. IMPULSE RESPONSE
+## Q1. IMPULSE RESPONSE
 1. Write a MATLAB program to compute the impulse response of the following systems:
 
 	<img src="https://render.githubusercontent.com/render/math?math=a)">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://render.githubusercontent.com/render/math?math=y\left(n\right)=4.5x\left(n\right)%2B0.8y\left(n-1\right)">
@@ -84,7 +47,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 
 	a) Plot DTFT magnitude and Phase of y(n) over the interval [-π , π] without Calculation of y(n). (*Hint: Filter Command, fftshift , fft*)
 
-	b) Determine and Plot y(n) with convolution (*Use the convol Function From A.1*). Plot DTFT magnitude and Phase of y(n).
+	b) Determine and Plot y(n) with convolution (*Hint: conv Command*). Plot DTFT magnitude and Phase of y(n).
 
 	c) Plot Frequency Response of y(n) (*Hint: Freqz Command*) and Obtain y(n) from it and plot it. (*Hint: iztrans Command*).
 

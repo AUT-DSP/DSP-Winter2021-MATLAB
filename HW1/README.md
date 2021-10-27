@@ -50,7 +50,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 
 3. <img src="https://render.githubusercontent.com/render/math?math={\color{Red} Only for 1.b!!!}"><br> Solve the difference equation for y(n), n ≥ 0: driven by the input <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=\left(\frac{1}{2}\right)^nu\left[n\right]"> and subject to y(-1) = 0
 
-	a) Plot DTFT magnitude and Phase of y(n) over the interval [-π , π] without Calculation of y(n). (*Hint: Filter Command, fftshift , fft*)
+	a) Plot DTFT magnitude and Phase of y(n) over the interval [-π , π] without Calculation of y(n). (*Hint: Filter Command, fftshift , fft or freqz*)
 
 	b) Determine and Plot y(n) with convolution (*Hint: conv Command*). Plot DTFT magnitude and Phase of y(n).
 

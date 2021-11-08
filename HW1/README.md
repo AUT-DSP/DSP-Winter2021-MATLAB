@@ -189,7 +189,7 @@ Plot the magnitude of the normalized DTFT over −π ≤ ω ≤ π. Study these 
 and comment on their behavior as a function of M and Compare their DTFT's. for instance, the Rectangular Window Function written below:
 
 ```javascript
-function w = myRect(M)
+function R = myRect(M)
 % Rectangular Window of Length M
 	n=0:M;
 	R=zeros(1,length(n)); 

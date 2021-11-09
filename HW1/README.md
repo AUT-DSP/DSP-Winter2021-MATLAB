@@ -54,7 +54,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 
 	b) Determine and Plot y(n) with convolution (*Hint: conv Command*). Plot DTFT magnitude and Phase of y(n).
 
-	c) Plot Frequency Response of y(n) (*Hint: Freqz Command*) and Obtain y(n) from it and plot it. (*Hint: iztrans Command*).
+	c) Plot Frequency Response of y(n)[Y(z) = H(z).X(z)](*Hint: Freqz Command*) and Obtain y(n) from it and plot it. (*Hint: iztrans Command*).
 
 	d) Plot the poles and zeros of H(z), and indicate the ROC.
 	
@@ -68,7 +68,7 @@ Plot the impulse response h(n) using stem() for n=0,1,…,100. Theoretically, wh
 
 
 where a=0.5, and the input signal x(n) is the sinewave, <img src="https://render.githubusercontent.com/render/math?math=x\left(n\right)=3sin\left(2\ \pi\ 0.2n\right)">. Assume zero initial conditions, y(-1)=0.
- Plot y(n), for n=1, 2, …, 100.
+ Plot y(n), for n=0, 1, 2, …, 100.
 
 2. Repeat (1) for a=0.9, a=1.2, a=-0.5. What happens when a=1.2? Why?
 

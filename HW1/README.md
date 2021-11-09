@@ -191,13 +191,8 @@ and comment on their behavior as a function of M and Compare their DTFT's. for i
 ```javascript
 function R = myRect(M)
 % Rectangular Window of Length M
-	n=0:M;
-	R=zeros(1,length(n)); 
-	for i=1:length(n)
-	    if(n(i)<M)
-		R(i)=1;
-	    end
-	end
+	n = 0:M-1;
+	R = ones(1,length(n)); 
 end
 ```
 

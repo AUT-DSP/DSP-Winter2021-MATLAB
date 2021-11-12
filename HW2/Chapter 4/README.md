@@ -43,7 +43,7 @@ Good Luck!
 	<img src="https://render.githubusercontent.com/render/math?math=y = sawtooth(2\pi ft)">
 
 
-2. Sample These Signals with Sampling Frequency 100Hz and discuss about the boundrys of Sampling Frequency in your Report.
+2. Sample These Signals with Sampling Frequency 100Hz and discuss about the boundrys of Sampling Frequency in your Report and in your MATLAB code.
 
 ### B. Interpolation
 A reconstruction filter on the output of a sampled data system. Provided the signal was sampled at a rate greater than twice the highest frequency present in the original, the output of a reconstruction filter will be identical to the original signal.

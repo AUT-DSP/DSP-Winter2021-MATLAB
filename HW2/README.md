@@ -5,7 +5,7 @@
   <img src="https://user-images.githubusercontent.com/47852354/138564509-b5dffb4e-f48b-4db5-b8a4-1385ef2b22c8.png" width="200">
 </p>
 
-# Dicrete-time Signal Processing - MATLAB HW1
+# Dicrete-time Signal Processing - MATLAB HW2
 ### Deadline: Friday, 2021 Nov.8 - 23:59 (GMT+3:30)
 ---
 **Dr. Hamid Sheikhzadeh - TAs: Arshia Samoudi - Saleh Tabatabaei**
@@ -13,13 +13,13 @@
 
 # Introduction
 Hi everyone.
-MATLAB Homework 1 Tests Your Abilities in Following Content:
-- Convolution
-- Impulse Respones
-- Frequency Response
-- Z-transform & Inverse Z-Transform
+MATLAB Homework 2 Tests Your Abilities in Following Content:
+- Sampling
+- Reconstruction
+- DownSampling
+- UpSampling
 
-HW1 Consists of 5 Questions:
+HW2 Consists of 5 Questions:
 - Q1,Q2,Q3: MATLAB Coding Exercises
 - Q4: MATLAB AppDesigner
 - Q5: MATLAB AppDesigner Bonus Question

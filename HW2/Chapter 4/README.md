@@ -18,11 +18,11 @@ MATLAB Homework 2 Tests Your Abilities in Following Content:
 - Reconstruction
 - DownSampling
 - UpSampling
+- Aliasing
 
-HW2 Consists of 5 Questions:
-- Q1,Q2,Q3: MATLAB Coding Exercises
-- Q4: MATLAB AppDesigner
-- Q5: MATLAB AppDesigner Bonus Question
+HW2 Consists of 2 Questions:
+- Q1: Reconstruction Theory
+- Q4: MATLAB AppDesigner (Downsampling and Upsampling)
 
 Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises and Publish your Work just like The **MATLAB HW-Template** given as Follows and Upload it in [Courses](https://courses.aut.ac.ir/)
 

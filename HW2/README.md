@@ -75,7 +75,7 @@ A reconstruction filter on the output of a sampled data system. Provided the sig
 
 
 #### 2. Sinc Interpolation
-1. Write a MATLAB program to compute Reconstructed Signals Obtained From sinc interpolation
+1. Write a MATLAB program to compute Reconstructed Signals Obtained From sinc interpolation.(**Q1 folder clip**)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54024838/141498118-04e1e5cf-3761-42b7-a733-5e2296199849.png" width = "300">
@@ -110,11 +110,55 @@ At time instants corresponding to one of the other known samples, say, t = tk + 
 </p>
 
 
-
-
 ## Q2. App Designer - UpSampling & DownSampling
+### A. Downsampling
+The sampling rates of a discrete-time signal are changed using operators called decimators and interpolators. A decimator consists of a cascade of a lowpass filter, and a downsampler (or subsampler), denoted by ↓ N.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/141604564-35330ca9-28a6-496a-8a45-10eaa0349c3f.png" width = "400">
+</p>
+
+In the frequency domain, the input and the output of the downsampler are related by
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=Y\left(e^{j\omega}\right)=\frac{1}{N}\sum_{r=0}^{N-1}X\left(e^{j\left(\frac{\omega}{N}%2B\frac{2\pi r}{N}\right)}\right)" width = "300">
+</p>
+
+Downsampling introduces aliasing into the DTFT of x[n]. The downsampler is the basic component for sampling rate reduction.
+
+MATLAB Command for Downsampling is `downsample(x,M)`
+
+### B. Upsampling
+The dual operation is called interpolation. It is the process by which a signal sampled at one sampling rate is converted to one with a rate that is L times higher. upsampler, inserts L - 1 zeros between each sample in the input. The first subsystem, which is called an upsampler, inserts L - 1 zeros between each sample in the input. The second subsystem is a lowpass filter with a gain of L and a cutoff frequency of <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{L}">
+. 
 
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/141604707-4cbb812e-360b-4568-b371-98065da3d9d1.png" width = "400">
+</p>
+
+MATLAB Command for Upsampling is `upsample(x,L)`.
+
+### C. APP Designer
+By the Definition of Upsampling and Downsampling, Design an App according to the clip in **Q2 folder** that show the rate factor effect of the input sequence `x[n] = sinc((n-M/2)/(2N)).^2` for n=0,1,…,M-1, M = 300, in frequency Domain
+
+- N: the bandwidth factor of tri(f) which is <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{N}">
+- L: the Upsampler factor
+- M: the downsampler factor
+- w: filter normalized cut-off frequency (for creating filter use `fir1` command in MATLAB)
+
+```
+b = fir1(filter Order, Normalized cut-off frequncy)
+Hint: let Order Filter be half of the length of input you want to filter.
+```
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/141605250-7186b30d-4a32-44af-9fed-6cad6e1bf810.png" width = "400">
+</p>
+
+
+### Additional Content
+the `resample` Command in MATLAB allows you to Not only have rational sampling Factor but also Does the Filtering Part too! 
 
 ----
 **Amirkabir University of Technology, Electrical Engineering Department**

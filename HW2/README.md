@@ -46,8 +46,7 @@ Good Luck!
 	<img src="https://render.githubusercontent.com/render/math?math=y = sawtooth(2\pi ft)">
 
 
-2. Sample These Signals with Sampling Frequency 100Hz and discuss about the boundrys of Sampling Frequency in your Report and in your MATLAB code. Consider different values for sampling frequency and check that whether the Reconstruction is possible or not.
-
+2. Sample These Signals with Sampling Frequency 100Hz and discuss about the boundrys of Sampling Frequency in your Report and in your MATLAB code. 
 ### B. Interpolation
 A reconstruction filter on the output of a sampled data system. Provided the signal was sampled at a rate greater than twice the highest frequency present in the original, the output of a reconstruction filter will be identical to the original signal.
 
@@ -64,7 +63,7 @@ A reconstruction filter on the output of a sampled data system. Provided the sig
 </p>
 
 #### 1. Linear Interpolation
-1. In Linear interpolation, the samples are simply connected to each other with strict line. Write a MATLAB program to compute Linear Interpolated Signal:(*Hint: interp1 Command*)
+1. In Linear interpolation, the samples are simply connected to each other with strict line. Write a MATLAB program to compute Linear Interpolated Signals:(*Hint: interp1 Command*)
 
 		vq = interp1(x,v,xq,"linear")
 
@@ -76,14 +75,15 @@ A reconstruction filter on the output of a sampled data system. Provided the sig
 
 
 #### 2. Sinc Interpolation
-1. Write a MATLAB program to compute Reconstructed Signal Obtained From sinc interpolation
+1. Write a MATLAB program to compute Reconstructed Signals Obtained From sinc interpolation
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54024838/141498118-04e1e5cf-3761-42b7-a733-5e2296199849.png" width = "300">
 </p>
 
-2. Compare the Reconstructed Signal with the Original one and state that where Maxima of Error happens.
-3. is it possible to reconstruct all form of signals? explain the Error cause of Reconstruction of sawtooth signal.
+2. Consider different values for sampling frequency and check that whether the Reconstruction is possible or not. mention the results in your Report.
+3. Compare the Reconstructed Signal with the Original one and state that where Maxima of Error happens.
+4. is it possible to reconstruct all form of signals? explain the Error cause of sawtooth Reconstructed signal.
 
 
 #### 3. Additional Content: Polynomial Interpolation

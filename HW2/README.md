@@ -175,7 +175,7 @@ In this problem we are going to design an equalizer system for a given channel s
 ##### 6- plot the frequency response of the overall system of channel followed by your equalizer(magnitude and phase). 
 ##### 7- in this part we want to analyze the effect of quantization of the coefficients of digital filters and the effect of the implementation methods. 
 Write a function in matlab and name it quantize_m which receives a vector of numbers and extract the dynamic range of the vector which is the difference between the minimum and maximum of that vector, and also receives n_bit parameter which is the number of bits that our system is going to use. The output is the quantized vector. 
-##### 8- quantize the coefficients of your equalizer according to direct form II with 4,8,16,32 bits and plot the pole zero locations for each number of bits in one plot.(use subplot) 
+##### 8- quantize the coefficients of your equalizer according to direct form II with 4,8,16,32 bits and plot the pole zero locations for each number of bits in one plot.(use `subplot`) 
 Do you notice something dangerous when using few bits? 
 What is the minimum number of bits that puts the poles and zeros in acceptable positions?4or 8 or 16 or 32? 
 

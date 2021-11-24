@@ -162,7 +162,24 @@ the `resample` Command in MATLAB allows you to Not only have rational sampling F
 
 
 ## Q6. Structure for Discrete-Time System
-# Equalizer
+### Equalizer
+
+In this problem we are going to design an equalizer system for a given channel system function which has been estimated beforehand. Load the ‘a.mat’ and ‘b.mat’ files which are the denominator and numerator coefficient of the estimated system function of the channel(Files are located in **Q6 Folder**). 
+
+##### 1- plot the frequency response of the channel magnitude and phase (`freqz` would be helpful). 
+##### 2- plot the pole-zero locations of the channel system function. 
+##### 3- read a short audio file using ‘audioread’ command in matlab and plot it’s frequency spectrum magnitude and phase. 
+
+##### 4- use your file as the input of the channel and plot the output in time domain and frequency domain (magnitude and phase). 
+##### 5- we want to design an equalizer to compensate the frequency amplitude distortion of the channel. Design that equalizer and plot the location of its zeros and poles and also the frequency response of the equalizer(magnitude and phase). 
+##### 6- plot the frequency response of the overall system of channel followed by your equalizer(magnitude and phase). 
+##### 7- in this part we want to analyze the effect of quantization of the coefficients of digital filters and the effect of the implementation methods. 
+Write a function in matlab and name it quantize_m which receives a vector of numbers and extract the dynamic range of the vector which is the difference between the minimum and maximum of that vector, and also receives n_bit parameter which is the number of bits that our system is going to use. The output is the quantized vector. 
+##### 8- quantize the coefficients of your equalizer according to direct form II with 4,8,16,32 bits and plot the pole zero locations for each number of bits in one plot.(use subplot) 
+Do you notice something dangerous when using few bits? 
+What is the minimum number of bits that puts the poles and zeros in acceptable positions?4or 8 or 16 or 32? 
+
+
 
 
 ----

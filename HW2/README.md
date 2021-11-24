@@ -160,6 +160,11 @@ Hint: let Order Filter be half of the length of input you want to filter.
 ### Additional Content
 the `resample` Command in MATLAB allows you to Not only have rational sampling Factor but also Does the Filtering Part too! 
 
+
+## Q6. Structure for Discrete-Time System
+# Equalizer
+
+
 ----
 **Amirkabir University of Technology, Electrical Engineering Department**
 

@@ -209,6 +209,79 @@ c) what is the relation between H1(z) and H0(z) frequency response?
 d) for given sequence h0 = [1 3 1 4 1 3 1], determine the Mirror filter. plot frequency response of both filter and compare them.
 
 
+
+## Q5. Multi-Channel Filters and Perfect Reconstruction
+### A. Two-Channel Filters
+
+#### Basic Equations for the Two-Channel Filter Bank
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143775684-9e311b10-7541-4001-bdd6-ddc31c798926.png" width = "530">
+</p>
+
+Let us study the two-channel filter bank represented in Fig. above. H0(z) and H1(z) form an analysis filter bank, and F0(z) and F1(z) form a synthesis
+filter bank. H0(z) and F0(z) are low-pass filters, while H1(z) and F1(z) are high-pass filters.
+The output of the two-channel filter bank is:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143775751-1110a253-b2cb-441a-8ff9-738d777571a1.png" width = "350">
+</p>
+
+The term with U(−z) is called the **alias term**. In order not to have any contribution of U(−z) to the filter bank output, the following condition must be met:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143775821-bfc199ea-0393-4ba0-af15-397a265613f3.png" width = "250">
+</p>
+This is the **aliasing cancellation condition**.
+
+The term with U(z) in Eq.(1.70) is called the **distortion term** and for perfect reconstruction must be a constant or a pure delay (depending on we were working
+with non-causal filters or with causal filters). Therefore, the distortion term must be one of the following:
+
+- Off-line work, non-causal filters:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143776001-a6b244a7-2541-4e0e-9a40-cf5f7a40a78c.png" width = "250">
+</p>
+
+- On-line work, causal filters:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143776019-ee2f29ce-6977-4eb5-a1a6-bc9294a8f113.png" width = "250">
+</p>
+
+### B. Four-Channel Filters
+
+Consider the Block Below:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143776134-99ae93b9-d14a-4d4b-acb2-451d7ee19db9.png" width = "450">
+</p>
+
+this is the structure of Four-Channel Filters with one process unit. we are about to get familiar with one of Application of Multi-rate Filters.
+
+a) Consider x(t) as your input:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143776258-9c42a44f-aff2-42af-8f48-56fa8b5dd4d6.png" width = "450">
+</p>
+
+plot the frequency response of x(t).
+
+b) by using the `xlsread`, `readtable` or similar Commands, import the coefficients of analysis filter bank, and synthesis filter bank. 
+
+**Note: coefficients of analysis filter bank are in sheet1 and synthesis filter bank coefficients are in sheet2. each consist of 4 * 32 matrix**
+
+c) with this filter bank:
+
+- double the first Frequency component
+- eliminate the second Frequency component
+- the third Frequency component Remain unchanged
+- attenuate the fourth Frequency component by 0.5 factor
+
+and plot the frequency response.
+
+
+
 ## Q6. Structure for Discrete-Time System
 ### Equalizer
 

@@ -161,6 +161,54 @@ Hint: let Order Filter be half of the length of input you want to filter.
 the `resample` Command in MATLAB allows you to Not only have rational sampling Factor but also Does the Filtering Part too! 
 
 
+## Q3. Transform Analysis of Linear Time-Invariant Systems
+### Decomposition Theorem 
+from this Theory we know that a system x[n] can be decomposed to Two Min-phase and All-pass system **with one Condition!**.
+
+1. for **Real** system with zeros on <img src="https://render.githubusercontent.com/render/math?math=z1 = 0.4e^{(j\frac{\pi}{6})}"> and  <img src="https://render.githubusercontent.com/render/math?math=z2 = 1.5e^{(j\frac{2\pi}{3})}"> 
+
+	a) determine the Min-phase and All-pass System of The specified system theoretically. use `zplane` to show the Zeros and Poles of determined systems.
+	
+	b) Using MATLAB, show the relation between phase and groupdelay of system with it's decomposed parts. (*for groupdelay use `grpdelay` command.*)
+
+2. Consider the Zeros above for a FIR GLP type 3 System.
+
+	a) is it possible to use the Decomposition Theorem? why?
+	
+	b) is it possible to Compensate the amplitude distortion? Write MATLAB Code to prove your Work? (*Hint: Min-Max-Uc Decomposition*) 
+	
+	**(Bonus)  c) there is a practical way to Compensate the amplitude distortion. what you think it is?**
+
+	
+## Q4. Symmetries and Filter Types
+### Orthogonal FIR Filters
+
+Two filters A(z) and B(z) are orthogonal if:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143774450-73d21eea-d9fc-48e8-ad66-cfc4b5b0078d.png" width = "200">
+</p>
+
+where a(n) are the coefficients of A(z), and b(n) are the coefficients of B(z).
+
+a) find the relation between A(z) and B(z). for given A(z), what would be the B(z)?
+
+b) for given sequence h0 = [1 2 3 4 5 6], determine the orthogonal filter. plot frequency response of both filter and compare them.
+
+
+### Mirror FIR Filters
+
+Given a symmetric FIR filter H0(z), a mirror filter H1(z) can be easily obtained by sign alternation:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/143774408-1a65eb47-a593-4d17-a3ff-63aa0dd1317a.png" width = "180">
+</p>
+
+c) what is the relation between H1(z) and H0(z) frequency response?
+
+d) for given sequence h0 = [1 3 1 4 1 3 1], determine the Mirror filter. plot frequency response of both filter and compare them.
+
+
 ## Q6. Structure for Discrete-Time System
 ### Equalizer
 

@@ -267,7 +267,7 @@ a) Consider x(t) as your input:
 
 plot the frequency response of x(t).
 
-b) by using the `xlsread`, `readtable` or similar Commands, import the coefficients of analysis filter bank, and synthesis filter bank. 
+b) by using the `xlsread`, `readtable` or similar Commands, import the coefficients of analysis filter bank, and synthesis filter bank. (**Q5 folder**)
 
 **Note: coefficients of analysis filter bank are in sheet1 and synthesis filter bank coefficients are in sheet2. each consist of 4 * 32 matrix**
 

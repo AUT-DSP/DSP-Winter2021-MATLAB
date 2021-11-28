@@ -175,7 +175,7 @@ from this Theory we know that a system x[n] can be decomposed to Two Min-phase a
 
 	a) is it possible to use the Decomposition Theorem? why?
 	
-	b) is it possible to Compensate the amplitude distortion? Write MATLAB Code to prove your Work? (*Hint: Min-Max-Uc Decomposition*) 
+	b) is it possible to Compensate the amplitude distortion? Write MATLAB Code to approximately Compensate the amplitude distortion. (*Hint: Min-Max-Uc Decomposition*) 
 	
 	**(Bonus)  c) there is a practical way to Compensate the amplitude distortion. what you think it is?**
 

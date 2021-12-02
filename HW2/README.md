@@ -38,7 +38,7 @@ Good Luck!
 
 ## Q1. RECONSTRUCTION
 ### A. Sampling
-1. Write a MATLAB program to compute following Signals, where f = 10hz and the Time interval is [0,0.2]:
+1. Write a MATLAB program to compute following Signals, where f = 10hz and the Time interval is [0,0.2]:(*Hint: Use `sawtooth` Command*)
 
 	<img src="https://render.githubusercontent.com/render/math?math=y = sin(2\pi ft) %2Bcos(4\pi ft)"><br/>
 	

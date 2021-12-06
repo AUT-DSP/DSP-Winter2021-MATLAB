@@ -46,7 +46,7 @@ Good Luck!
 	<img src="https://render.githubusercontent.com/render/math?math=y = sawtooth(2\pi ft)">
 
 
-2. Sample These Signals with Sampling Frequency 100Hz and discuss about the boundrys of Sampling Frequency in your Report and in your MATLAB code. 
+2. Sample These Signals with Sampling Frequency 100Hz and discuss about the boundrys of Sampling Frequency in your Report. 
 ### B. Interpolation
 A reconstruction filter on the output of a sampled data system. Provided the signal was sampled at a rate greater than twice the highest frequency present in the original, the output of a reconstruction filter will be identical to the original signal.
 
@@ -63,15 +63,19 @@ A reconstruction filter on the output of a sampled data system. Provided the sig
 </p>
 
 #### 1. Linear Interpolation
-1. In Linear interpolation, the samples are simply connected to each other with strict line. Write a MATLAB program to compute Linear Interpolated Signals:(*Hint: interp1 Command*)
+1. In Linear interpolation, the samples are simply connected to each other with strict line. Write a MATLAB program to compute Linear Interpolated Signals:(*Hint: interp1 Command*). ts is interval with step of inv(fs). for this part consider inv(2fs) as the step of tnew and plot ynew and compare it with ys.
 
-		vq = interp1(x,v,xq,"linear")
+		ynew = interp1(ts,ys,tnew,"linear")
 
+the `plot` function of MATLAB also uses Linear Interpolation. plot(ts,ys) will connect ys samples with strict line. `interp1` can be used for sampling too and Assigns signals values to the new timeline. use following command for sampling signal with fs:
+
+	     ys = interp1(t,y,ts,"linear")
+		
+where ts is time interval with inv(fs) as step.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54024838/141498962-ce2d0ea1-0253-4a34-b2bb-e194bdb1e45f.png" width = "300">
 </p>
-
 
 
 #### 2. Sinc Interpolation

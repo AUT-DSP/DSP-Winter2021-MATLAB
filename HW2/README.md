@@ -181,7 +181,7 @@ from this Theory we know that a system x[n] can be decomposed to Two Min-phase a
 
 	a) determine the Min-phase and All-pass System of The specified system theoretically. use `zplane` to show the Zeros and Poles of determined systems.
 	
-	b) Using MATLAB, show the relation between phase and groupdelay of system with it's decomposed parts. (*for groupdelay use `grpdelay` command.*)
+	b) Using MATLAB, show the relation between phase and groupdelay of system with its decomposed parts. (*for groupdelay use `grpdelay` command.*)
 
 2. Consider the Zeros above for a FIR GLP type 3 System.
 

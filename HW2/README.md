@@ -87,7 +87,7 @@ where ts is time interval with inv(fs) as step.
 
 
 #### 2. Sinc Interpolation
-1. Write a MATLAB program to compute Reconstructed Signals Obtained From sinc interpolation.(Reconstruct ys.**Q1 folder clip**)
+1. Write a MATLAB program to compute Reconstructed Signals Obtained From sinc interpolation.(Reconstruct ys. **Q1 folder clip**)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54024838/141498118-04e1e5cf-3761-42b7-a733-5e2296199849.png" width = "300">

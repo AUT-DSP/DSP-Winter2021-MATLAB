@@ -169,7 +169,7 @@ the `resample` Command in MATLAB allows you to Not only have rational sampling F
 ### Decomposition Theorem 
 from this Theory we know that a system x[n] can be decomposed to Two Min-phase and All-pass system **with one Condition!**.
 
-1. for **Real** system with zeros on <img src="https://render.githubusercontent.com/render/math?math=z1 = 0.4e^{(j\frac{\pi}{6})}"> and  <img src="https://render.githubusercontent.com/render/math?math=z2 = 1.5e^{(j\frac{2\pi}{3})}"> 
+1. for **Real** system with zeros on <img src="https://render.githubusercontent.com/render/math?math=z1 = 0.4e^{(j\frac{\pi}{6})}"> and  <img src="https://render.githubusercontent.com/render/math?math=z2 = 1.5e^{(j\frac{2\pi}{3})}"> (*System's coefficients are **Real** therefore you must consider `conj(z1)` and `conj(z2)` as your system's zeros too*)
 
 	a) determine the Min-phase and All-pass System of The specified system theoretically. use `zplane` to show the Zeros and Poles of determined systems.
 	

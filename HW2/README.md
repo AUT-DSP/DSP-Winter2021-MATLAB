@@ -72,7 +72,7 @@ the `plot` function of MATLAB also uses Linear Interpolation. plot(ts,ys) will c
 	   fc = 10000; Tc = inv(fc); t = 0:Tc:0.2;
 	   y = sin(2*pi*10*t);
 
-	   fs = 100; Ts = inv(fs); ts = 0:ts:0.2;
+	   fs = 100; Ts = inv(fs); ts = 0:Ts:0.2;
 	   
 	   ys2 = sin(2*pi*10*ts);
 	   ys1 = interp1(t,y,ts,"linear");

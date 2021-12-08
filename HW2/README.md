@@ -69,7 +69,15 @@ A reconstruction filter on the output of a sampled data system. Provided the sig
 
 the `plot` function of MATLAB also uses Linear Interpolation. plot(ts,ys) will connect ys samples with strict line. `interp1` can be used for sampling too and Assigns signals values to the new timeline. use following command for sampling signal with fs:(similar to Q1.A)
 
-	     ys = interp1(t,y,ts,"linear")
+	   fc = 10000; tc = inv(fc); t = 0:tc:0.2;
+	   y = sin(2*pi*10*t);
+
+	   fs = 100; ts = inv(fs); t = 0:ts:0.2;
+	   
+	   ys2 = sin(2*pi*10*ts);
+	   ys1 = interp1(t,y,ts,"linear");
+	   
+	   % ys1 = ys2
 		
 where ts is time interval with inv(fs) as step.
 

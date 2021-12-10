@@ -291,7 +291,7 @@ c) with this filter bank:
 
 - double the first Frequency component
 - eliminate the second Frequency component
-- the third Frequency component Remain unchanged
+- the third Frequency component Remains unchanged
 - attenuate the fourth Frequency component by 0.5 factor
 
 and plot the frequency response.

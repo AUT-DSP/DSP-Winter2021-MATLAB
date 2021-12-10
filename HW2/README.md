@@ -203,7 +203,11 @@ Two filters A(z) and B(z) are orthogonal if:
 
 where a(n) are the coefficients of A(z), and b(n) are the coefficients of B(z).
 
-a) find the relation between A(z) and B(z). for given A(z), what would be the B(z)?
+Given a FIR filter A(z) there is a simple way to obtain another FIR filter B(z) that is orthogonal to A(z). The orthogonal filter B(z) is obtained as follows:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54024838/145526214-343daa91-03ec-4365-8028-7f4afdcb8500.png" width = "200">
+</p>
 
 b) for given sequence h0 = [1 2 3 4 5 6], determine the orthogonal filter. plot frequency response of both filter and compare them.
 

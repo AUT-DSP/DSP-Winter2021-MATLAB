@@ -281,7 +281,19 @@ a) Consider x(t) as your input:
   <img src="https://user-images.githubusercontent.com/54024838/143776258-9c42a44f-aff2-42af-8f48-56fa8b5dd4d6.png" width = "450">
 </p>
 
-plot the frequency response of x(t).
+plot the frequency response of x(t). Use following Code.
+
+	t = 0: 1/2/pi: 60;
+	x1 = cos(2*pi/16*pi*t);
+	x2 = cos(2*5*pi/16*pi*t);
+	x3 = cos(2*9*pi/16*pi*t);
+	x4 = cos(2*13*pi/16*pi*t);
+
+	x = x1 + x2 + x3 + x4;
+
+	n = 512;
+	fs = 2*pi;
+	freq = linspace(-fs/2, fs/2, n);
 
 b) by using the `xlsread`, `readtable` or similar Commands, import the coefficients of analysis filter bank, and synthesis filter bank. (**Q5 folder**)
 
@@ -294,7 +306,7 @@ c) with this filter bank:
 - the third Frequency component Remains unchanged
 - attenuate the fourth Frequency component by 0.5 factor
 
-and plot the frequency response.
+and plot the frequency response.(*Hint: Using `fft` and `fftshift`*)
 
 
 

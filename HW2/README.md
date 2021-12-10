@@ -203,7 +203,7 @@ Two filters A(z) and B(z) are orthogonal if:
 
 where a(n) are the coefficients of A(z), and b(n) are the coefficients of B(z).
 
-Given a FIR filter A(z) there is a simple way to obtain another FIR filter B(z) that is orthogonal to A(z). The orthogonal filter B(z) is obtained as follows:
+Given a FIR filter A(z) there is a simple way to obtain another FIR filter B(z) that is orthogonal to A(z). The orthogonal filter B(z) is obtained as follows:(*M = N-1, N is the sequence length*)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54024838/145526785-ae39a470-08f0-495c-a8ad-9157434e495b.png" width = "200">

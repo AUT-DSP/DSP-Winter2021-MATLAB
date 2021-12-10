@@ -295,7 +295,7 @@ plot the frequency response of x(t). Use following Code.
 	fs = 2*pi;
 	freq = linspace(-fs/2, fs/2, n);
 
-b) by using the `xlsread`, `readtable` or similar Commands, import the coefficients of analysis filter bank, and synthesis filter bank. (**Q5 folder**)
+b) by using the `xlsread`, `readtable`, `importdata` or similar Commands, import the coefficients of analysis filter bank, and synthesis filter bank. (**Q5 folder**)
 
 **Note: coefficients of analysis filter bank are in sheet1 and synthesis filter bank coefficients are in sheet2. each consist of 4 * 32 matrix**
 

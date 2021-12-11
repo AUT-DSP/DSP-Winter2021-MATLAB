@@ -68,6 +68,48 @@ In the previous section, design the window using MATLAB commands, finally by usi
 
 4. What were the differences if we used a rectangular window for design?
 
+
+## Q2. IIR Filter Design
+
+for this questions, it's better to study the **section 8.4** and **section 8.5 from Digital Signal Processing using MATLAB**
+
+### A. Bilinear transformation
+1. Design a digital IIR filter with the following specifications (consider the value of T as 2 where necessary)
+
+  <p align="Center">
+    <img src="https://user-images.githubusercontent.com/54024838/145674331-f8bb27e5-445a-4f57-a776-6715d4c504b2.png" width="450" >
+  </p>
+
+The desired filter using the design method of Butterworth analog filter and two-line conversion (Bilinear transformation) 
+Follow the steps below.
+
+- First find Ωp and Ωs of analog frequencies according to the corresponding relations.
+- Use the afd_butt command and find the corresponding analog filter coefficients. Specify the order of the N-Butterworth Filter.
+- In your work report write the relationships related to two-line conversion to convert analog filter to digital, analog filter to
+Convert the result obtained in the previous step to a digital filter using the bilinear command in MATLAB.
+- Plot Magnitude and phase of the digital filter frequency response; Explain in your work report and write down H(z).
+
+### B. Normalized Butterworth
+2. Design the filter of part (a) this time using another method in MATLAB during the following steps:
+
+- First find Ωp and Ωs of analog frequencies according to the corresponding relations
+- Write the relations related to the Butterworth filter at the frequencies Ωp and Ωs and use it as a relation to find the N(Filter Order). Using this relation in MATLAB, calculate N and Ωc and write in your work report
+- Find ωn using the following equation. (π in the denominator of the relation is not because of the two-line conversion but because
+In MATLAB, all frequencies are on the scale of π
+
+  <p align="Center">
+    <img src="https://user-images.githubusercontent.com/54024838/145674649-6b07566a-6589-4aeb-8aa6-9544cb9d0015.png" width="200" >
+  </p>
+
+- Use the butter command to find the corresponding digital filter and plot the size and phase of the digital filter frequency response.
+Explain in your work report and write down H(z)
+
+### C. Filtering
+3. There is an audio file attached to Question 2 that covers different frequencies. Read this audio file. Draw its frequency response. Put Two filters designed in parts (a) and (b) on the audio signal and draw the output frequency response.
+
+4. As you know, to design an IIR filter, we can use other analog filters besides the Butterworth filter.
+For example, elliptic, Chebyshev-I, and .Chebyshev-II. Investigate these filters briefly.
+Explain in your report. Which of these filters is best for design?
 ----
 **Amirkabir University of Technology, Electrical Engineering Department**
 

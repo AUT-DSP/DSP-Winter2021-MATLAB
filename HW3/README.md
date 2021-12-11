@@ -14,17 +14,12 @@
 # Introduction
 Hi everyone.
 
-HW2 Consists of 6 Questions:
-- Q1,Q2 : Chapter 4 (Sampling,Reconstruction)
-- Q3,Q4,Q5 : Chapter 5
-- Q6 : Chapter 6
+HW3 Consists of 4 Questions:
+- Q1,Q2 : Chapter 7 (FIR and IIR Filter Designing)
+- Q3,Q4 : Chapter 8 (DFT , DFS)
 
 Q1,Q2 Tests Your Abilities in Following Content:
-- Sampling
-- Reconstruction
-- DownSampling
-- UpSampling
-- Aliasing
+- Designing FIR and IIR filters
 
 Please **Read Submission** and Do all Theoretical and Coding Parts of Exercises and Publish your Work just like The **MATLAB HW-Template** given as Follows and Upload it in [Courses](https://courses.aut.ac.ir/)
 

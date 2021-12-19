@@ -220,9 +220,9 @@ Given a symmetric FIR filter H0(z), a mirror filter H1(z) can be easily obtained
   <img src="https://user-images.githubusercontent.com/54024838/143774408-1a65eb47-a593-4d17-a3ff-63aa0dd1317a.png" width = "180">
 </p>
 
-c) what is the relation between H1(z) and H0(z) frequency response?
+b) what is the relation between H1(z) and H0(z) frequency response?
 
-d) for given sequence h0 = [1 3 1 4 1 3 1], determine the Mirror filter. plot frequency response of both filter and compare them.
+c) for given sequence h0 = [1 3 1 4 1 3 1], determine the Mirror filter. plot frequency response of both filter and compare them.
 
 
 

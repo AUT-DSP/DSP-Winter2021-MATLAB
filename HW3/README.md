@@ -105,6 +105,57 @@ Explain in your work report and write down H(z)
 4. As you know, to design an IIR filter, we can use other analog filters besides the Butterworth filter.
 For example, elliptic, Chebyshev-I, and .Chebyshev-II. Investigate these filters briefly.
 Explain in your report. Which of these filters is best for design?
+
+
+## Q3. Convolution and DFT
+for this questions, it's better to study the **section 8.7 from Discrete-Time Signal Processing Book**
+
+### A. cflip
+1. Write a function called cflip in MATLAB that has two inputs. **sig[n]** (a signal) and **n** (an integer) And give modulo N at the output of the signal sig[-n modulo N].
+
+``` java script
+    function cflipped_sig = cflip(sig, N)
+    ...
+    end
+```
+
+### B. cshift
+2. Write a function called cshift in MATLAB that has two inputs. **sig[n]** (a signal) and **m** (an integer) And Calculate the circular shifted with the order m at the output.
+
+``` java script
+    function cshifted_sig = cshift(sig, m)
+    ...
+    end
+```
+
+### C. Circular Convolution
+3. Using the functions of parts (a) and (b), write a MATLAB function to calculate the circular convolution of two signals with N(integer).
+
+``` java script
+    function output_sig = cconv(sig1, sig2, N)
+    ...
+    end
+```
+
+### D. DFT Properties
+4. As we know from the properties of DFT, the circular convolution of two signals in the time domain is matched with the product of Their DFTs in the frequency domain.
+
+  <p align="Center">
+    <img src="https://user-images.githubusercontent.com/54024838/147384567-9c827f47-0ab7-4ee3-8a50-ecf844d4d4af.png" width="300" >
+  </p>
+
+Calculate Circular convolution both pairs of the following signals using both methods and Then complete the results. Compare the output obtained from the two methods and explain it in your work report.
+
+**1st Signal pair : Rectangular pulses with lengths 4, 8 which start at n = 4, N = 21**
+
+**2nd Signal pair : Rectangular pulses with lengths 7, 11 which start at n = 5, N = 21**
+
+- Method1: Using the cconv function written in part (c)
+- Method2: Calculation of DFT of each of the two time signals, calculation of the product of frequency multiplication then use IDFT (Reverse DFT) (Use the fft, ifft commands to calculate DFT, IDFT)
+
+5. For which pair circular convolution and linear convolution are the same? and what is the reason? Explain in your work report
+
+
 ----
 **Amirkabir University of Technology, Electrical Engineering Department**
 

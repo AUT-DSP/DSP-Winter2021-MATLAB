@@ -215,7 +215,7 @@ the output of echoed signal is obtained from the formula below:
   <img src="https://latex.codecogs.com/gif.latex?y_%7Becho%7D%5Bn%5D%20%3D%20%5Csum_%7Bk%3D0%7D%5E%7BN%7D%5Calpha%20%5Eky%5Bn-kM%5D">
 </p>
 
-we want to study on the effects of parameters N,M and α on output. for this purpose, Develope an App that get an audio signal as input and Gives the echoed signal as output. App must have these features.
+we want to study on the effects of parameters N, M and α on output. for this purpose, Develope an App that get an audio signal as input and Gives the echoed signal as output. App must have these features.
 
 - the parameters values must be changeable with **Edit Field** for analysing effects.(initial values are M = 44100, N = 3 and α = 0.7)
 - two **buttons** for playing original signal and echoed signal.
